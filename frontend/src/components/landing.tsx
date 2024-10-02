@@ -8,6 +8,7 @@ import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { useState } from "react"
 import axios from "axios"
+import {SiGithub } from "react-icons/si"
 
 const BACKEND_UPLOAD_URL = "http://localhost:3000";
 
@@ -18,16 +19,16 @@ export function Landing() {
   const [deployed, setDeployed] = useState(false);
 
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen bg-gray-50 dark:bg-gray-900 p-4">
-      <Card className="w-full max-w-md">
+    <main className="flex items-center justify-center min-h-screen bg-gradient-to-b from-gray-400 to-gray-900  p-4">
+      <Card className="w-full max-w-lg">
         <CardHeader>
-          <CardTitle className="text-xl">Deploy your GitHub Repository</CardTitle>
-          <CardDescription>Enter the URL of your GitHub repository to deploy it</CardDescription>
+          <CardTitle className="text-3xl font-bold font-mono">Deploy your GitHub Repository</CardTitle>
+          <CardDescription >Enter the URL of your GitHub repository to deploy it !!</CardDescription>
         </CardHeader>
         <CardContent>
           <div className="space-y-4">
             <div className="space-y-2">
-              <Label htmlFor="github-url">GitHub Repository URL</Label>
+              <Label className="text-xl font-bold font-mono" htmlFor="github-url">GitHub Repository URL:-</Label>
               <Input 
                 onChange={(e) => {
                   setRepoUrl(e.target.value);
@@ -64,16 +65,17 @@ export function Landing() {
         <CardContent>
           <div className="space-y-2">
             <Label htmlFor="deployed-url">Deployed URL</Label>
-            <Input id="deployed-url" readOnly type="url" value={`http://${uploadId}.dev.100xdevs.com:3001/index.html`} />
+            <Input id="deployed-url" readOnly type="url" value={`http://${uploadId}.RapidDeploy.com:3001/index.html`} />
           </div>
           <br />
           <Button className="w-full" variant="outline">
-            <a href={`http://${uploadId}.10kdevs.com/index.html`} target="_blank">
+            <a href={`http://${uploadId}.RapidDeploy.com/index.html`} target="_blank">
               Visit Website
             </a>
           </Button>
         </CardContent>
       </Card>}
+      <SiGithub className="  w-[200px] h-[200px] text-card ml-[40px] animate-bounce mt-[100px] " />
     </main>
   )
 }
