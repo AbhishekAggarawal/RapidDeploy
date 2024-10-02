@@ -1,3 +1,5 @@
+<img width="953" alt="Screenshot 2024-10-02 231726" src="https://github.com/user-attachments/assets/528f3e8f-46f9-487a-8619-56762a270fcf">
+
 # GitHub Repository Deployment Platform
 
 This project allows users to deploy a GitHub repository directly from a GitHub URL, similar to how Vercel works. The platform utilizes a full stack with technologies like React, Node.js, Express, Redis, AWS S3, and Cloudflare Bucket for seamless and efficient deployment.
@@ -76,6 +78,5 @@ This project allows users to deploy a GitHub repository directly from a GitHub U
     ```
 
 
-<img width="953" alt="Screenshot 2024-10-02 231726" src="https://github.com/user-attachments/assets/528f3e8f-46f9-487a-8619-56762a270fcf">
 
 
