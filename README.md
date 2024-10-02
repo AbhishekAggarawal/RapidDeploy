@@ -76,6 +76,6 @@ This project allows users to deploy a GitHub repository directly from a GitHub U
     ```
 
 
-   <img width="953" alt="Screenshot 2024-10-02 231726" src="https://github.com/user-attachments/assets/e1d4ca6d-7145-4cd6-b6db-d07a20da7321">
+<img width="953" alt="Screenshot 2024-10-02 231726" src="https://github.com/user-attachments/assets/528f3e8f-46f9-487a-8619-56762a270fcf">
 
 
