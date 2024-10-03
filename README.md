@@ -3,7 +3,7 @@
 # GitHub Repository Deployment Platform
 
 This project allows users to deploy a GitHub repository directly from a GitHub URL, similar to how Vercel works. The platform utilizes a full stack with technologies like React, Node.js, Express, Redis, AWS S3, and Cloudflare Bucket for seamless and efficient deployment.
-# Before proceeding change the rootDir to "./src" and outDir to "./dist" in tsconfig.json
+### Before proceeding change the rootDir to "./src" and outDir to "./dist" in tsconfig.json
 ## Table of Contents
 
 - [Features](#features)
